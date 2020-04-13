@@ -1,6 +1,6 @@
 from dbservers.server import Data
 
-table_name = ''
+table_name = 'table_name'
 # 查询1条 返回一个字典
 check_params = ('key1','=','value1')
 a = Data.find(table_name,[check_params])
