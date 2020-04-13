@@ -7,7 +7,7 @@ a = Data.find(table_name,[('id','=','1')])
 b = Data.select(table_name,[('id','!=','0')])
 # 更新数据 成功失败都返回None
 params1={
-    '字段1':'value1'
+    '字段2':'value2'
 }
 c = Data.update(table_name,[('字段1','=','value1')],params1)
 # 插入数据 成功返回None，失败返回失败原因
